@@ -22,3 +22,16 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+# Datasets (LIMIT jsonl files and any generated/downloaded data)
+data/
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# HuggingFace / model caches
+.cache/
